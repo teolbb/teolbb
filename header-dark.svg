@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" role="img" aria-label="A stylized Harman-target frequency response curve">
   <title>frequency response — Harman target</title>
   <!-- 0 dB reference -->
-  <line x1="20" y1="68" x2="780" y2="68" stroke="#cfc8b8" stroke-width="1" stroke-dasharray="4 6" opacity="0.55"/>
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#4a443c" stroke-width="1" stroke-dasharray="4 6" opacity="0.7"/>
   <!-- subtle decade markers at 100 Hz, 1 kHz, 10 kHz on a log scale -->
-  <g opacity="0.18" stroke="#9a9080" stroke-width="1">
+  <g opacity="0.25" stroke="#6b6258" stroke-width="1">
     <line x1="237" y1="20" x2="237" y2="105"/>
     <line x1="430" y1="20" x2="430" y2="105"/>
     <line x1="623" y1="20" x2="623" y2="105"/>
   </g>
   <!-- the curve: drawn on load via stroke-dashoffset animation, then frozen -->
   <path d="M 20,28 C 140,28 200,28 240,35 C 285,44 310,60 360,66 C 430,74 520,68 780,76"
-        fill="none" stroke="#d97757" stroke-width="3.2"
+        fill="none" stroke="#e88a6f" stroke-width="3.2"
         stroke-linecap="round" stroke-linejoin="round"
         pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
     <animate attributeName="stroke-dashoffset"

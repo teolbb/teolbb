@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="header.svg" alt="" width="640">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
+    <img src="header.svg" alt="" width="640">
+  </picture>
 </p>
 
 ### hi
