@@ -3,11 +3,14 @@
   <img src="header.svg" alt="" width="480">
 </picture>
 
-### hi
+**hi** &nbsp;—&nbsp; I'm Téo. I build small, focused tools.
 
-I'm Téo. I build small, focused tools.
+<p>
+<img src="icon-curveforge.svg" width="22" align="absmiddle">&nbsp;&nbsp;<b><a href="https://github.com/teolbb/curveforge">curveforge</a></b> &nbsp;—&nbsp; Python library that builds Dirac Live target curves. <a href="https://pypi.org/project/curveforge/">pypi</a>
+</p>
 
-- **[curveforge](https://github.com/teolbb/curveforge)** &nbsp;—&nbsp; Python library that builds Dirac Live target curves. [pypi](https://pypi.org/project/curveforge/)
-- **[curveforge-ui](https://github.com/teolbb/curveforge-ui)** &nbsp;—&nbsp; browser playground for it. [live](https://teolbb.github.io/curveforge-ui/)
+<p>
+<img src="icon-curveforge-ui.svg" width="22" align="absmiddle">&nbsp;&nbsp;<b><a href="https://github.com/teolbb/curveforge-ui">curveforge-ui</a></b> &nbsp;—&nbsp; browser playground for it. <a href="https://teolbb.github.io/curveforge-ui/">live</a>
+</p>
 
 More soon.

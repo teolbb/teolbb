@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="curveforge-ui">
+  <path d="M 3,5 C 5,5 7,5 9,8 C 11,11 13,13 21,14"
+        fill="none" stroke="#4a8fbf" stroke-width="1.8" opacity="0.65"
+        stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.5 2"/>
+  <path d="M 3,8 C 5,8 7,8 9,11 C 11,14 13,16 21,17"
+        fill="none" stroke="#d97757" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
