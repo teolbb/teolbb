@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="header.svg" alt="" width="640">
+</p>
+
 ### hi
 
 I'm Téo. I make small tools, mostly around audio.
