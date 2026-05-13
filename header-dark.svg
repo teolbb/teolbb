@@ -1,21 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" role="img" aria-label="A stylized Harman-target frequency response curve">
-  <title>frequency response — Harman target</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" role="img" aria-label="Several stylized target curves superimposed">
+  <title>signature target curves</title>
+
   <!-- 0 dB reference -->
   <line x1="20" y1="68" x2="780" y2="68" stroke="#4a443c" stroke-width="1" stroke-dasharray="4 6" opacity="0.7"/>
-  <!-- subtle decade markers at 100 Hz, 1 kHz, 10 kHz on a log scale -->
+
+  <!-- decade markers at 100 Hz, 1 kHz, 10 kHz on a log scale -->
   <g opacity="0.25" stroke="#6b6258" stroke-width="1">
     <line x1="237" y1="20" x2="237" y2="105"/>
     <line x1="430" y1="20" x2="430" y2="105"/>
     <line x1="623" y1="20" x2="623" y2="105"/>
   </g>
-  <!-- the curve: drawn on load via stroke-dashoffset animation, then frozen -->
+
+  <!-- supporting curves; each draws in with a stagger -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4">
+    <!-- B&K — pronounced low shelf, steep treble rolloff -->
+    <path d="M 20,20 C 110,20 180,20 220,32 C 270,46 320,60 380,68 C 490,76 580,82 780,92"
+          stroke="#b8907d" opacity="0.65"
+          pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0"
+               dur="1.7s" begin="0.3s" fill="freeze"
+               calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </path>
+    <!-- Olive–Welti — slightly more aggressive than Harman -->
+    <path d="M 20,24 C 130,24 200,24 240,32 C 290,42 320,58 380,68 C 460,76 540,76 780,82"
+          stroke="#6ba8d8" opacity="0.8"
+          pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0"
+               dur="1.7s" begin="0.5s" fill="freeze"
+               calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </path>
+    <!-- Toole — gentle downward slope, no shelf -->
+    <path d="M 20,50 C 200,52 400,58 600,64 L 780,72"
+          stroke="#9bbfa6" opacity="0.8"
+          pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0"
+               dur="1.7s" begin="0.7s" fill="freeze"
+               calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </path>
+  </g>
+
+  <!-- Harman — primary, on top, draws last -->
   <path d="M 20,28 C 140,28 200,28 240,35 C 285,44 310,60 360,66 C 430,74 520,68 780,76"
         fill="none" stroke="#e88a6f" stroke-width="3.2"
         stroke-linecap="round" stroke-linejoin="round"
         pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
-    <animate attributeName="stroke-dashoffset"
-             from="1" to="0"
-             dur="1.6s" begin="0.3s" fill="freeze"
+    <animate attributeName="stroke-dashoffset" from="1" to="0"
+             dur="1.7s" begin="0.9s" fill="freeze"
              calcMode="spline" keySplines="0.42 0 0.58 1"/>
   </path>
 </svg>
