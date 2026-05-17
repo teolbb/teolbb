@@ -4,8 +4,12 @@
 <img src="icon-curveforge.svg" width="22" align="absmiddle">&nbsp;&nbsp;<b><a href="https://github.com/teolbb/curveforge">curveforge</a></b> &nbsp;—&nbsp; Python library that builds Dirac Live target curves. &nbsp;<a href="https://pypi.org/project/curveforge/"><img src="icon-pypi.svg" width="14" align="absmiddle"> pypi</a>
 </p>
 
+```sh
+pip install curveforge
+```
+
 <p>
-<img src="icon-curveforge-ui.svg" width="22" align="absmiddle">&nbsp;&nbsp;<b><a href="https://github.com/teolbb/curveforge-ui">curveforge-ui</a></b> &nbsp;—&nbsp; browser playground for it. &nbsp;<a href="https://teolbb.github.io/curveforge-ui/"><img src="icon-live.svg" width="14" align="absmiddle"> live</a>
+<img src="icon-curveforge-ui.svg" width="22" align="absmiddle">&nbsp;&nbsp;<b><a href="https://github.com/teolbb/curveforge-ui">curveforge-ui</a></b> &nbsp;—&nbsp; browser playground &mdash; eight target curves, composable EQ, A/B compare, live audio preview. &nbsp;<a href="https://teolbb.github.io/curveforge-ui/"><img src="icon-live.svg" width="14" align="absmiddle"> live</a>
 </p>
 
 More soon.
